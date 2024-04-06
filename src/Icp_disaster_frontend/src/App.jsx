@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { ii_demo_backend, createActor } from 'declarations/Icp_disaster_backend';
+import { Icp_disaster_backend, createActor } from 'declarations/Icp_disaster_backend';
 import { AuthClient } from "@dfinity/auth-client";
 import { HttpAgent } from "@dfinity/agent";
 
 
 function App() {
   
-  let actor = ii_demo_backend;
+  let actor = Icp_disaster_backend;
 
 
   async function login(event) {
